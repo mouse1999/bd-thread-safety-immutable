@@ -1,8 +1,8 @@
 
 
-public class ChatMessage implements Runnable {
-    public ChatUser recipient;
-    public ChatMessageContent messageContent;
+public final class ChatMessage implements Runnable {
+    private final ChatUser recipient;
+    private final ChatMessageContent messageContent;
 
     /**
      *
